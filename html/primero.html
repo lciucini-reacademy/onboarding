@@ -1,39 +1,35 @@
 <html>
-    <head>
-<title>Mi primer codigo</title>
-<style>
-    body{
+  <head>
+    <title>Mi primer codigo</title>
+    <style>
+      body {
         background-color: cyan;
-    }
-    h1{
+      }
+      h1 {
         background-color: brown;
-    }
+      }
 
-    p{
+      p {
         font-size: 25px;
         color: darkblue;
-    }
-</style>
-    </head>
-    <body>
-        <h1>Calcula tu peso en la luna</h1>
-        <p> Conoce cual es tu peso en la luna</p>
-        <script>
-            alert("Esto esta funcionando con javascript")
-        var usuario =prompt ("¿Cual es tu peso?");
-        var gTierra = 9.8;
-        var gLuna = 1.6;
-        var peso = parseInt(usuario);
-        var peso_final ;
-        var peso_luna = peso * gLuna / gTierra;
-        var peso_final = parseInt(peso_luna);
-        document.write("Tu peso en la luna es de" + peso_final + " kilogramos.");
-        </script>
-        
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Calcula tu peso en la luna</h1>
+    <p>Conoce cual es tu peso en la luna</p>
+    <script>
+      alert("Esto esta funcionando con javascript");
+      var usuario = prompt("¿Cual es tu peso?");
+      var gTierra = 9.8;
+      var gLuna = 1.6;
+      var peso = parseInt(usuario);
+      var peso_final;
+      var peso_luna = (peso * gLuna) / gTierra;
+      var peso_final = parseInt(peso_luna);
+      document.write("Tu peso en la luna es de" + peso_final + " kilogramos.");
+    </script>
 
-
-
-            </var>
-        <p>Hola mundo!</p>
-    </body>
+    <p>Hola mundo!</p>
+  </body>
 </html>
